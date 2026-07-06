@@ -1,0 +1,47 @@
+:root {
+  --transition-time: 0.3s;
+  --primary-color: aquamarine;
+}
+
+a {
+  transition: color var(--transition-time) ease-in-out;
+}
+
+a:hover {
+  color: white;
+}
+
+body {
+  font-family: "Comfortaa";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: aquamarine;
+}
+
+.button {
+  text-decoration: none;
+  border-radius: 50px;
+  border-style: solid;
+}
+
+#time-display {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  margin: 15px 0;
+}
+
+.button {
+  text-decoration: none;
+  border-radius: 50px;
+  border-style: solid;
+}
+
+#time-display {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  margin: 15px 0;
+}
